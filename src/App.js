@@ -7,9 +7,14 @@ function App() {
   };
 
   return (
-    <div className="App" style={{display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100vh'}}>
-      <button onClick={() => handleClick('https://english-newsletter-mp2.vercel.app')}>MP2</button>
-      <button onClick={() => handleClick('https://english-newsletter-mp3.vercel.app')}>MP3</button>
+    <div className="App" style={{backgroundColor: '#212936'}}>
+      <div className="header">
+        <h1>Choose a marking period and view its newsletter</h1>
+      </div>
+      <div className="App" style={{display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100vh'}}>
+        <button onClick={() => handleClick('https://english-newsletter-mp2.vercel.app')}>MP2</button>
+        <button onClick={() => handleClick('https://english-newsletter-mp3.vercel.app')}>MP3</button>
+      </div>
     </div>
   );
 }

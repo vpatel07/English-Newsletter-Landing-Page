@@ -24,3 +24,16 @@ button:hover {
   background-color: #4b5563;
 }
 
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
