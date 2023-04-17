@@ -55,3 +55,11 @@ button:hover {
 button {
   margin: 10;
 }
+
+.App > div:last-child {
+  margin-top: 10px;
+}
+
+.App > div:last-child > button:first-child {
+  margin-right: 20px;
+}
