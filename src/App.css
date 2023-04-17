@@ -16,7 +16,7 @@ button {
   text-align: center;
   font-size: 16px;
   padding: 15px 32px;
-  margin: 10;
+  margin: 4px 2px;
   cursor: pointer;
 }
 
@@ -45,3 +45,6 @@ button:hover {
   font-size: 1em;
 }
 
+button {
+  margin: 10;
+}
