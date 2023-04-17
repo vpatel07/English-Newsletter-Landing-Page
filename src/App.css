@@ -26,8 +26,8 @@ button:hover {
 
 .App {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  flex-direction: row;
+  justify-content: row;
   align-items: center;
   height: 100vh;
 }
