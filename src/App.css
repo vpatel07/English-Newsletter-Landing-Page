@@ -38,3 +38,7 @@ button:hover {
   color: #eaecee;
 }
 
+button {
+  margin: 0;
+}
+
