@@ -14,7 +14,7 @@ function App() {
       <div className='text'>
         <p>Choose a marking period and view its newsletter</p>
       </div>
-      <div className="buttons" style={{display: 'flex', justifyContent: 'center', alignItems: 'center', height: '50vh'}}>
+      <div className="buttons" style={{display: 'flex', justifyContent: 'center', alignItems: 'center', height: '25vh'}}>
         <button onClick={() => handleClick('https://english-newsletter-mp2.vercel.app')}>MP2</button>
         <button onClick={() => handleClick('https://english-newsletter-mp3.vercel.app')}>MP3</button>
       </div>
