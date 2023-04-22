@@ -64,3 +64,12 @@ button {
 .App > div:last-child > button:first-child {
   margin-right: 10px;
 }
+
+#display-output {
+  color: white;
+  padding: 100px 200px 100px 200px;
+  align-items: center;
+  margin: 1px;
+  border-radius: 30px;
+  border-color: white;
+}

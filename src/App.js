@@ -9,15 +9,29 @@ function App() {
   return (
     <div className="App" style={{backgroundColor: '#212936'}}>
       <div className="header">
-        <h1>Mohrle's Musings</h1>
+        <h1>AI Thing</h1>
       </div>
       <div className='text'>
-        <p>Choose a marking period and view its newsletter</p>
+        <h4>
+          Weclome to our AI bot that allows you to do our Brain Tumor Decector.
+        </h4>
       </div>
       <div className="buttons" style={{display: 'flex', justifyContent: 'center', alignItems: 'center', height: '5vh'}}>
-        <button onClick={() => handleClick('https://english-newsletter-mp2.vercel.app')}>MP2</button>
-        <button onClick={() => handleClick('https://english-newsletter-mp3.vercel.app')}>MP3</button>
+        <input type="file" id="avatar" name="avatar" accept="image/png, image/jpeg">Choose File</input>
+        <p id="display-output">Output</p>
       </div>
+      <div className='text'> 
+        This AI can detect: 
+        <ul>
+          <li>Scoliosis</li>
+          <li>Brain Tumors</li>
+          <li>Brain Hemorrages</li>
+        </ul> 
+      </div>
+        Why is this AI Useful:
+        <ul>
+          <li></li>
+        </ul>
     </div>
   );
 }
